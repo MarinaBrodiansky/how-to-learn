@@ -17,7 +17,6 @@
 .logo {
   height: 32px;
   width: 228px;
-
 }
 
 .logo_place_header {
@@ -52,6 +51,7 @@
 
 .header-link{
  color:#2f80ed;
+ text-decoration: none;
 }
 
 .header__main-illustration {
@@ -215,6 +215,8 @@
  font-size: 36px;
  font-weight: normal;
  position: absolute;
+ text-decoration: none;
+ color:#2f80ed;
 }
 
 .feynman__img {
@@ -282,18 +284,20 @@
  padding-top: 60px;
  padding-bottom: 40px;
  background-color: #1f1f1f;
+ justify-content: center;
+ box-sizing: border-box;
 }
 
 .footer__columns {
  width: 90%;
  display: flex;
  justify-content: space-between;
-
 }
 
 .footer__column {
  display: flex;
  flex-direction: column;
+ 
 }
 
 .footer__column_content_copyright {
