@@ -12,7 +12,7 @@
   height: 100vh;
   background-color: #f2f2f2;
   overflow: hidden;
-}
+  }
 
 .logo {
   height: 32px;
@@ -31,25 +31,27 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
   align-self: center;
-  z-index: 3;
+  z-index: 4;
 }
 
 .header__subtitle {
  width: 388px;
- margin-left: 64px;
+ margin: 0;
  bottom: 30px;
+ left: 64px;
  line-height: 25px;
  font-size: 18px;
  font-weight: normal;
  position: absolute;
+ z-index: 3;
 }
 
-.header-link{
+.header__link {
  color:#2f80ed;
  text-decoration: none;
 }
@@ -109,13 +111,14 @@
  line-height: 34px;
  font-size: 24px;
  font-weight: normal;
+ margin: 0;
 }
 
 .two-columns__paragraph:first-child {
  margin-top: 0;
  margin-bottom: 30px;
 }
-.two-columns__paragraph:last-child{
+.two-columns__paragraph:last-child {
  margin-bottom: 0;
  margin-top: 30px;
 }
@@ -132,6 +135,7 @@
  margin-top: 100px;
  margin-bottom: 100px;
  flex-direction: column;
+ justify-content: center;
  align-items: center;
 }
 
@@ -151,7 +155,7 @@
  font-size: 24px;
  font-weight: normal;
  text-align: center;
- margin-top: 20px;
+ margin: 20px 0 0 0;
 }
 
 .table {
@@ -160,6 +164,8 @@
  justify-content: space-between;
  flex-wrap: wrap;
  list-style: none;
+ margin: 0 auto 0 auto;
+ padding: 0;
 }
 
 .table__cell {
@@ -171,17 +177,18 @@
  line-height: 1.15;
  font-size: 24px;
  font-weight: 600;
+ margin: 0;
 }
 
 .table__text {
  line-height: 1.2;
  font-size: 18px;
  font-weight: normal;
- margin-top: 20px;
+ margin: 20px 0 0 0;
 }
 
 .feynman{
- height: 890px;
+ min-height: 890px;
  display:flex;
  position: relative;
  flex-direction: column;
@@ -192,7 +199,7 @@
 
 .feynman__title {
  width: 648px;
- margin-top: 100px;
+ margin: 100px 0 70px 0;
  line-height: 1.15;
  font-size: 120px;
  font-weight: 600;
@@ -201,7 +208,7 @@
 }
 
 .feynman__subtitle {
- margin-top: 70px;
+ margin: 0;
  line-height: 51px;
  font-size: 36px;
  font-weight: normal;
@@ -260,7 +267,6 @@
 }
 
 .table__heading_theme_dark {
- margin-bottom: 20px;
  color: white;
 }
 
@@ -274,6 +280,7 @@
  height: 877px;
  position: absolute;
  right: -210px;
+ top: 0;
  z-index: 1;
 }
 
@@ -330,10 +337,12 @@
 }
 
 .footer__column-links {
- margin-bottom: 16px;
- margin-top: 0;
- list-style: none;
+ margin: 0 0 16px 0;
  padding: 0;
+ list-style: none;
+ line-height: 30px;
+ font-size: 18px;
+ font-weight: normal;
 }
 
 .footer__column-link {
@@ -343,6 +352,7 @@
 
 .footer__column_content_social {
  flex-direction: column;
+ padding: 0;
 }
 
 .footer__social-icon {
