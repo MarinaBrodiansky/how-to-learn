@@ -1,0 +1,8 @@
+.techniques {
+    max-width: 80%;
+    margin: 100px auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
