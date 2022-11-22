@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
   </head>
-  <body>
-    <div class="page">
-      <header class="header">
+  <body class="page">  
+     <header class="header">
         <img src="./images/logo_place_header.svg" alt="логотип" class="logo logo_place_header">
         <h1 class= "header__title">Научиться учиться</h1>
         <p class= "header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
@@ -18,7 +16,7 @@
         <img src="./images/header-image.png" alt="картина опять двойка!" class="header__main-illustration">
       
        <div class="header__square-pic rotation"></div>
-      </header>
+    </header>
 
       <main class="content">
        <section class="description">
@@ -136,7 +134,7 @@
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
           <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <p class="khan__quote-author">Джоржд Лукас</p>
+          <h3 class="khan__quote-author">Джоржд Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюссер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="изображение книги Весь мир-школа" class="khan__book-pic">
@@ -210,9 +208,8 @@
           <img src="./images/logo_place_footer.svg" alt="логотип" class="logo logo_place_footer">
           <p class="footer__author">&copy;Марина Бродянская</p>
         </div>
-        <div class="footer__column footer__column_content_info">
-          <h2 class="footer__column-heading">О Практикуме</h2>
-          <nav>
+        <nav class="footer__column footer__column_content_info">
+          <h2 class="footer__column-heading">О Практикуме</h2>          
             <ul class="footer__column-links">
               <li>
                 <a href="#" class="footer__column-link">Главная</a>
@@ -224,11 +221,10 @@
                 <a href="#" class="footer__column-link">Наставники</a>
               </li>
             </ul>
-          </nav>
-        </div>
-        <div class="footer__column footer__column_content_social">
-          <h2 class="footer__column-heading">Соцсети</h2>
-          <nav>
+        </nav>
+        
+        <nav class="footer__column footer__column_content_social">
+          <h2 class="footer__column-heading">Соцсети</h2>          
             <ul class="footer__column-links">
               <li>
                 <a href="#" class="footer__column-link"><img src="./images/youtube-icon.svg" alt="иконка YouTube" class="footer__social-icon">YouTube</a>
@@ -240,10 +236,9 @@
                 <a href="#" class="footer__column-link"><img src="./images/tiktok-icon.svg" alt="иконка TikTok" class="footer__social-icon">Tik Tok</a>
               </li>
             </ul>
-          </nav>
-        </div>
+        </nav>
+        
        </div>
       </footer>
-    </div>
-  </body>
+    </body>
 </html>
