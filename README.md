@@ -8,3 +8,5 @@
 * Flexbox
 * использована методология БЭМ
 * iframe
+## GitHub Pages
+https://marinabrodiansky.github.io/how-to-learn/
